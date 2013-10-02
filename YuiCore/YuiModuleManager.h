@@ -5,8 +5,14 @@
 
 namespace yui{
 	
+
 	class ModuleManager : public Module {
 	
+	private:
+		ModuleList modules_;
+
+	public:
+		
 	
 	};
 }
