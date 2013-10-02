@@ -21,9 +21,18 @@
     <ClCompile Include="YUiCore.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="YuiModuleManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="YuiCore.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="YuiModuleManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="YuiCoreLib.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

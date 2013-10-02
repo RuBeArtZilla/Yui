@@ -73,9 +73,12 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="YUiCore.cpp" />
+    <ClCompile Include="YuiModuleManager.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="YuiCore.h" />
+    <ClInclude Include="YuiCoreLib.h" />
+    <ClInclude Include="YuiModuleManager.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -14,14 +14,14 @@ namespace yui {
 	public:
 		Module(Module* parent = 0) : parent_(parent){};
 		virtual ~Module(){};
-	
+
 		virtual Module* parent() const {return parent_;};
 		virtual void set_parent(Module* parent){parent_ = parent;};
 
 		virtual Version version() const {return version_;};
 
 	private:
-		Module(const Module&);
+		Module(const Module&){};
 		virtual void operator=(const Module&) = 0;
 	};
 
