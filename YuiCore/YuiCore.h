@@ -6,6 +6,12 @@
 
 namespace yui {
 	
+	#ifdef YUI_HEADER_EXPORT
+	#define YUI_HEADER_API extern "C" __declspec(dllexport) 
+	#else
+	#define YUI_HEADER_API extern "C" __declspec(dllimport) 
+	#endif
+	
 	typedef unsigned long Version;
 
 	class Module {
@@ -36,6 +42,8 @@ namespace yui {
 
 	typedef std::list<Module*> ModuleList;
 	typedef std::list<Module*>::iterator ModuleListIterator;
+
+	YUI_HEADER_API Module* DllLoadModule(); 
 }
 
 #endif /* YUI_CORE_H */

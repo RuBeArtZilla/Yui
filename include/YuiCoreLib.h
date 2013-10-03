@@ -2,6 +2,8 @@
 #define YUI_CORE_LIB_H
 #pragma once
 
+#define MYLAMP_HEADER_EXPORT 1
+
 #include "../YuiCore/YuiCore.h"
 #include "../YuiCore/YuiModuleManager.h"
 

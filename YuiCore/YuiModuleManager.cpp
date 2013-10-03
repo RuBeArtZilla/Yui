@@ -1,13 +1,17 @@
 #include "YuiModuleManager.h"
 
+//-----------------------------------------------------------------------------
 yui::ModuleManager::ModuleManager(Module * parent) : Module(parent){
 	version_ = MODULE_MANAGER_VERSION;
+	enabled_ = true;
 }
 
+//-----------------------------------------------------------------------------
 yui::ModuleList yui::ModuleManager::modules(){
 	return modules_;
 }
 
+//-----------------------------------------------------------------------------
 bool yui::ModuleManager::add(Module * pModule){
 	if (pModule){
 		modules_.push_back(pModule);
@@ -17,6 +21,7 @@ bool yui::ModuleManager::add(Module * pModule){
 	return false;
 }
 
+//-----------------------------------------------------------------------------
 bool yui::ModuleManager::addnload(Module * pModule){
 	if (pModule){
 		Module * pOldParent = pModule->parent();

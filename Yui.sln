@@ -6,6 +6,9 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "include", "include", "{1AB33C9E-A0C6-47FC-B921-4B511F25DCD9}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "YuiMain", "YuiMain\YuiMain.vcxproj", "{E648DF4E-54AD-479E-980C-6F63C8375380}"
+	ProjectSection(ProjectDependencies) = postProject
+		{80D1ACF0-DFE2-4AB6-B710-82E3C98DF2B0} = {80D1ACF0-DFE2-4AB6-B710-82E3C98DF2B0}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
