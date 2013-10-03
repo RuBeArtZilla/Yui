@@ -15,7 +15,11 @@ namespace yui{
 
 	public:
 		ModuleManager(Module * parent = 0);
-	
+		
+		ModuleList modules();
+
+		bool add(Module *pModule);
+		bool addnload(Module *pModule);
 	};
 }
 
