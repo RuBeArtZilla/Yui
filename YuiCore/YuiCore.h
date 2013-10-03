@@ -1,5 +1,6 @@
 #ifndef YUI_CORE_H
 #define YUI_CORE_H
+#pragma once
 
 #include <list>
 
@@ -9,7 +10,7 @@ namespace yui {
 
 	class Module {
 	
-	private:
+	protected:
 		Module* parent_;
 		Version version_;
 		bool	enabled_;
@@ -30,7 +31,7 @@ namespace yui {
 
 	private:
 		Module(const Module&){};
-		virtual void operator=(const Module&) = 0;
+		virtual void operator=(const Module&){};
 	};
 
 	typedef std::list<Module*> ModuleList;
