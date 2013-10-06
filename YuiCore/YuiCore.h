@@ -3,7 +3,7 @@
 #pragma once
 
 #include <list>
-
+//#include <string>
 namespace yui {
 	
 	#ifdef YUI_HEADER_EXPORT

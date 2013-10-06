@@ -10,6 +10,11 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "YuiMain", "YuiMain\YuiMain.
 		{80D1ACF0-DFE2-4AB6-B710-82E3C98DF2B0} = {80D1ACF0-DFE2-4AB6-B710-82E3C98DF2B0}
 	EndProjectSection
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "YuiOutDX", "YuiOutDX\YuiOutDX.vcxproj", "{BFF921D2-C7C2-442D-B2B2-A57FDC36090E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{80D1ACF0-DFE2-4AB6-B710-82E3C98DF2B0} = {80D1ACF0-DFE2-4AB6-B710-82E3C98DF2B0}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -24,6 +29,10 @@ Global
 		{E648DF4E-54AD-479E-980C-6F63C8375380}.Debug|Win32.Build.0 = Debug|Win32
 		{E648DF4E-54AD-479E-980C-6F63C8375380}.Release|Win32.ActiveCfg = Release|Win32
 		{E648DF4E-54AD-479E-980C-6F63C8375380}.Release|Win32.Build.0 = Release|Win32
+		{BFF921D2-C7C2-442D-B2B2-A57FDC36090E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BFF921D2-C7C2-442D-B2B2-A57FDC36090E}.Debug|Win32.Build.0 = Debug|Win32
+		{BFF921D2-C7C2-442D-B2B2-A57FDC36090E}.Release|Win32.ActiveCfg = Release|Win32
+		{BFF921D2-C7C2-442D-B2B2-A57FDC36090E}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

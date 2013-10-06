@@ -36,3 +36,8 @@ bool yui::ModuleManager::addnload(Module * pModule){
 	}
 	return false;
 }
+//-----------------------------------------------------------------------------
+bool yui::ModuleManager::scannload(std::wstring paths) {
+	
+	return false;
+}

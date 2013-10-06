@@ -20,6 +20,8 @@ namespace yui{
 
 		bool add(Module *pModule);
 		bool addnload(Module *pModule);
+
+		bool scannload(std::wstring paths);
 	};
 }
 
